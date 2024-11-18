@@ -1,27 +1,23 @@
-# cloud-computing
+# Daisy - Cloud Computing ☁️
 
-## Deskripsi Proyek
+## 📑 Introduction
 
-Proyek ini bertujuan untuk mengembangkan solusi berbasis cloud yang efisien dan skalabel. Kami akan memanfaatkan teknologi cloud untuk meningkatkan kinerja dan fleksibilitas aplikasi.
+Daisy is an innovative dermatological AI system application for your skin aimed at detecting early skin diseases using image processing and machine learning. This repository contains the cloud computing components of the Daisy project, including APIs for authentication, news fetching, and machine learning model integration.
 
-## Fitur Utama
+## 👨‍💻‍ Cloud Computing Teams
 
-- Penyimpanan data yang aman dan terjangkau
-- Akses global dan kolaborasi real-time
-- Pemantauan dan pengelolaan sumber daya secara otomatis
+| No. |       Member        |  Student ID  |      Path       |                                                                                 Contacts                                                                                  |
+| :-: | :-----------------: | :----------: | :-------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|  1  | Hafiz Aryan Siregar | C546B4NY1667 | Cloud Computing |  <a href="https://www.linkedin.com/in/hafizaryan"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a>   |
+|  2  |    Hapid Ramdani    | C546B4NY1726 | Cloud Computing | <a href="https://www.linkedin.com/in/hapid-ramdani"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
 
-## Instalasi
+## 📚 Related Project Repositories
 
-Untuk memulai, ikuti langkah-langkah berikut:
+|    Learning Paths     |                               Link                                |
+| :-------------------: | :---------------------------------------------------------------: |
+|  🤖 Machine Learning  |          [ML Repository](https://github.com/Daisy-Team/)          |
+| 📱 Mobile Development | [MD Repository](https://github.com/Daisy-Team/mobile-development) |
 
-1. Clone repositori ini.
-2. Instal dependensi yang diperlukan.
-3. Konfigurasikan pengaturan cloud Anda.
+## 🔎 Features
 
-## Kontribusi
-
-Kami menyambut baik kontribusi dari semua orang. Silakan buka isu atau kirim permintaan tarik untuk berkontribusi pada proyek ini.
-
-## Lisensi
-
-Proyek ini dilisensikan di bawah MIT License.
+Coming soon
