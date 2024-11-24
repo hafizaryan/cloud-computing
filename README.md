@@ -4,7 +4,7 @@
 
 Daisy is an innovative dermatological AI system application for your skin aimed at detecting early skin diseases using image processing and machine learning. This repository contains the cloud computing components of the Daisy project, including APIs for authentication, news fetching, and machine learning model integration.
 
-## 👨‍💻‍ Cloud Computing Teams
+## 👨‍💻‍ Cloud Computing Team
 
 | No. |       Member        |  Student ID  |      Path       |                                                                                 Contacts                                                                                  |
 | :-: | :-----------------: | :----------: | :-------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
