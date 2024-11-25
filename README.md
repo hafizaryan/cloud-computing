@@ -20,4 +20,4 @@ Daisy is an innovative dermatological AI system application for your skin aimed 
 
 ## 🔎 Features
 
-Coming soon
+Coming soon hafiz
