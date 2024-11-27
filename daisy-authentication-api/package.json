@@ -1,0 +1,23 @@
+{
+  "name": "daisy-authentication-api",
+  "version": "1.0.0",
+  "description": "API used for authentication such as Login, Logout, Forgot Password, and Register.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hpdrr/cloud-computing.git"
+  },
+  "author": "hpdrr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hpdrr/cloud-computing/issues"
+  },
+  "homepage": "https://github.com/hpdrr/cloud-computing#readme",
+  "dependencies": {
+    "firebase": "^11.0.2",
+    "firebase-admin": "^13.0.1"
+  }
+}
