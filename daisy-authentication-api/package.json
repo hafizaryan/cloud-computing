@@ -4,8 +4,15 @@
   "description": "API used for authentication such as Login, Logout, Forgot Password, and Register.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node --watch index.js"
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log",
+    "dev": "node index.js"
+  },
+  "engines": {
+    "node": "16"
   },
   "repository": {
     "type": "git",
@@ -18,10 +25,15 @@
   },
   "homepage": "https://github.com/hpdrr/cloud-computing#readme",
   "dependencies": {
+    "cookie-parser": "^1.4.6",
     "dotenv": "^16.4.5",
-    "express": "^4.21.1",
-    "firebase": "^11.0.2",
-    "firebase-admin": "^13.0.1",
-    "firebase-functions": "^6.1.1"
-  }
+    "express": "^4.19.2",
+    "firebase": "^10.12.2",
+    "firebase-admin": "^11.11.1",
+    "firebase-functions": "^4.9.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.0.0"
+  },
+  "private": true
 }

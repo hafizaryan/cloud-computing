@@ -1,3 +1,4 @@
+require("dotenv").config();
 const functions = require("firebase-functions");
 const express = require("express");
 const cookieParser = require("cookie-parser");
@@ -12,8 +13,6 @@ const {
   sendEmailVerification,
   sendPasswordResetEmail,
 } = require("firebase/auth");
-
-require("dotenv").config();
 
 const app = express();
 
@@ -186,3 +185,7 @@ app.get("/", (req, res) => {
 });
 
 exports.app = functions.region("asia-southeast2").https.onRequest(app);
+
+// app.listen(3000, () => {
+//   console.log("Server is running on localhost:3000");
+// });
