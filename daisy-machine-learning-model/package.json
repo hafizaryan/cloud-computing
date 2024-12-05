@@ -1,0 +1,25 @@
+{
+  "name": "daisy-machine-learning-model",
+  "version": "1.0.0",
+  "description": "This is api for Daisy App for analyze the disease",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daisy-Team/cloud-computing.git"
+  },
+  "author": "Daisy Cloud Computing Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daisy-Team/cloud-computing/issues"
+  },
+  "homepage": "https://github.com/Daisy-Team/cloud-computing#readme",
+  "dependencies": {
+    "@google-cloud/firestore": "^7.11.0",
+    "@hapi/hapi": "^21.3.12",
+    "@tensorflow/tfjs-node": "^4.14.0",
+    "dotenv": "^16.4.7"
+  }
+}
