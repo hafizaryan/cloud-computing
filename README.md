@@ -38,3 +38,6 @@ Daisy is an innovative dermatological AI system application for your skin aimed 
 - **Base URL/Endpoint**: `lorem ipsum`
 - **Methods**:
   - `POST /image`: Analyze the uploaded image for skin disease detection.
+ 
+### Daisy Architecture
+![Daisy GCP Architecture](assets/daisy-gcp-architecture.png)
