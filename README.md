@@ -15,9 +15,29 @@ Daisy is an innovative dermatological AI system application for your skin aimed 
 
 |    Learning Paths     |                               Link                                |
 | :-------------------: | :---------------------------------------------------------------: |
-|  🤖 Machine Learning  |          [ML Repository](https://github.com/Daisy-Team/)          |
+|  🤖 Machine Learning  |          [ML Repository](https://github.com/Daisy-Team/machine-learning)          |
 | 📱 Mobile Development | [MD Repository](https://github.com/Daisy-Team/mobile-development) |
 
 ## 🔎 Features
+- **Authentication**: Secure user authentication using Firebase.
+- **Machine Learning**: Analyze uploaded images for eye disease detection using a machine learning model.
 
-Coming soon
+## 🔗 APIs
+
+### Authentication API
+
+- **Base URL/Endpoint**: `https://asia-southeast2-inbound-decker-441613-s6.cloudfunctions.net/app`
+- **Methods**:
+  - `POST api/register`: Register a new user.
+  - `POST api/login`: Authenticate an existing user.
+  - `POST api/reset-password`: Change user password.
+  - `POST api/logout`: Logging out user account
+
+### Machine Learning API
+
+- **Base URL/Endpoint**: `lorem ipsum`
+- **Methods**:
+  - `POST /image`: Analyze the uploaded image for skin disease detection.
+ 
+### Daisy Architecture
+![Daisy GCP Architecture](assets/daisy-gcp-architecture.png)
